@@ -1,0 +1,61 @@
+/*
+Template Name: Aytor
+Version: 1.0.0
+Author: Aytor
+
+
+Table of Content
+===========================
+   ********Home Page*********
+   1) Navigation Section
+   2) Banner Section
+   3) Feature Section
+*/
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,
+p,
+small,span,
+ol,ul{
+   margin: 0;
+   padding: 0;
+}
+ol,ul{
+   list-style-type: none;
+}
+a{
+   text-decoration: none;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'josefin sans','sans-serif';
+}
+:root{
+    --3d-primary-color:#151A32;
+    --text-color:#11161E;
+    --common-color:#FFFFFF;
+    --1st-primary-color:#FF6F61;
+    --prargraph-color:#444444;
+    --2nd-primary-color:#FF5645;
+    --background-color:#F1F1F1;
+    --BG:#F1F3F4;
+    --black:#000000;
+    --another-color:#A6AAB7;   
+};
+/* //Common Css End */
+
+
+/* Navigation Section Css Start */
+#mynav .container #navbarNav ul li a{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: var(--text-color);
+    padding: 33px 14px;
+}
+#mynav .container #navbarNav ul li:hover > a{
+    color: var(--1st-primary-color);
+}
+#mynav .container #navbarNav #icons i{
+    padding: 0 13px;
+}
+
+/* //Navigation Section Css End */
